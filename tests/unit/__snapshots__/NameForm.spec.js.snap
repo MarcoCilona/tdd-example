@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NameForm tests Componet does exists 1`] = `<div><input data-test-id="inputTest"> <button data-test-id="buttonTest">Click me!</button></div>`;

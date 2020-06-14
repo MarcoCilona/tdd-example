@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App tests App component exists and is rendered right 1`] = `
+<div id="app">
+  <div>
+    <div><input data-test-id="inputTest"> <button data-test-id="buttonTest">Click me!</button></div>
+    <div>
+      <p data-test-id="paragraphTest">Hello </p> <button data-test-id="greetingsButton">More greeting please!</button>
+    </div>
+  </div>
+</div>
+`;

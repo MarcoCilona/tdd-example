@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home tests Home component exists and is rendered right 1`] = `
+<div>
+  <nameform-stub></nameform-stub>
+  <nameview-stub name=""></nameview-stub>
+</div>
+`;

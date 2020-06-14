@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewView tests Components does exists 1`] = `
+<div>
+  <p data-test-id="paragraphTest">Hello </p> <button data-test-id="greetingsButton">More greeting please!</button>
+</div>
+`;

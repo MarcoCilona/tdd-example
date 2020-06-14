@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreGreetings tests Check MoreGreetings html 1`] = `
+<div>
+  <h1 data-set-id="titleTest">Digitiamo</h1>
+  <p data-set-id="paragraphGreetingsTest">Watch out, Digitiamo is coming</p>
+</div>
+`;
