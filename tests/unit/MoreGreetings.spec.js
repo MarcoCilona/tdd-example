@@ -15,7 +15,7 @@ localVue.use(VueRouter);
  * 3. Check if More Greeting has a h1 element and a paragraph element
  * 4. Check if title displays name variable
  * 5. Check if paragraph contains text "Watch out, ${name} is coming"
- * 6. Check if, on created, data is equal to route name param
+ * 6. Check if, on mounted, data is equal to route name param
  */
 describe('MoreGreetings tests', () => {
   let router;
@@ -68,11 +68,13 @@ describe('MoreGreetings tests', () => {
     expect(paragraphWrapper.textContent).toEqual(`Watch out, ${name} is coming`);
   });
 
-  it('Check if, on created, data is equal to route name param', async () => {
+  it('Check if, on mounted, data is equal to route name param', async () => {
     const name = 'Digitiamo';
 
     await wrapper.vm.$nextTick();
 
     expect(wrapper.vm.$data.name).toEqual(name);
+    const titleWrapper = wrapper.find('[data-set-id="titleTest"]').element;
+    expect(titleWrapper.textContent).toEqual(name);
   });
 });

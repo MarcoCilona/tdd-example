@@ -33,7 +33,6 @@ describe('NameForm tests', () => {
   });
 
   it('Component contains input element', () => {
-    // expect(wrapper.find('input').exists()).toBe(true);
     expect(wrapper.find('[data-test-id="inputTest"]').exists()).toBe(true);
   });
 
