@@ -11,6 +11,7 @@
     "test:unit:watch": "vue-cli-service test:unit --watchAll"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
@@ -34,6 +35,8 @@
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^6.2.2",
+    "flush-promises": "^1.0.2",
+    "nock": "^12.0.3",
     "typescript": "~3.9.3",
     "vue-template-compiler": "^2.6.11"
   }

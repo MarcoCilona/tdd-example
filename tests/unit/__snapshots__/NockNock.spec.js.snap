@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing NockNock component NockNock component is consistent 1`] = `
+<div>
+  <p data-test-id="typeParagraph"></p> <button data-test-id="userButton">Retrieve user!</button>
+</div>
+`;

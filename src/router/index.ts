@@ -9,14 +9,13 @@ Vue.use(VueRouter);
 export const routes: Array<RouteConfig> = [
   {
     path: '/',
-    component: Home
+    component: Home,
   },
   {
     path: '/more-greetings/:name',
     name: 'MoreGreetings',
     component: MoreGreetings,
   },
-
 ];
 
 const router = new VueRouter({

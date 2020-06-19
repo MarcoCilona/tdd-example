@@ -74,7 +74,6 @@ describe('NewView tests', () => {
     });
     await button.trigger('click');
 
-    console.log(wrapper.vm.$route.path);
     expect(wrapper.vm.$route.params.name).toEqual(wrapper.props().name);
   });
 });
